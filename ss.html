@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HTML Tags Showcase</h1>
+        <p>This webpage demonstrates a variety of HTML tags for educational purposes.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Text Formatting -->
+    <section id="section1">
+        <h2>Text Formatting Tags</h2>
+        <p><b>Bold text</b> and <i>italic text</i> are commonly used for emphasis. For <u>underlined</u> text, use the <code>&lt;u&gt;</code> tag.</p>
+        <p>Other formatting options include: <mark>highlighted text</mark>, <small>small text</small>, and <del>strikethrough</del>.</p>
+    </section>
+
+    <!-- Section 2: Images and Links -->
+    <section id="section2">
+        <h2>Images and Links</h2>
+        <p>To add an image, use the <code>&lt;img&gt;</code> tag:</p>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300" height="200">
+
+        <p>For links, use the <code>&lt;a&gt;</code> tag:</p>
+        <a href="https://www.example.com" target="_blank">Click here to visit Example</a>
+    </section>
+
+    <!-- Section 3: Lists -->
+    <section id="section3">
+        <h2>Lists</h2>
+
+        <!-- Unordered List -->
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+
+        <!-- Description List -->
+        <h3>Description List:</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JS</dt>
+            <dd>JavaScript</dd>
+        </dl>
+    </section>
+
+    <!-- Section 4: Forms -->
+    <section>
+        <h2>Forms</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="bio">Short Bio:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Section 5: Tables -->
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Bob</td>
+                    <td>30</td>
+                    <td>San Francisco</td>
+                </tr>
+                <tr>
+                    <td>Charlie</td>
+                    <td>22</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 6: Media -->
+    <section>
+        <h2>Audio and Video</h2>
+        <p>HTML allows embedding media such as audio and video.</p>
+
+        <!-- Audio -->
+        <h3>Audio:</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video -->
+        <h3>Video:</h3>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HTML Tags Showcase. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
